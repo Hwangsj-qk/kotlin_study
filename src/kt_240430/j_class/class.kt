@@ -2,7 +2,7 @@ package kt_240430.j_class
 
 // 클래스 선언 기본 구조
     // 생성자
-class 클래스이름 constructor() {
+class 클래스이름 constructor() {     // constructor 생략 가능
     // 프로퍼티(java의 필드)
     var 프로퍼티이름: String      // 프로퍼티는 기본적으로 초기되어야 함
 
