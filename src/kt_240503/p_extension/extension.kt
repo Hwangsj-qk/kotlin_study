@@ -17,11 +17,11 @@ fun main() {
 
     // 확장 함수에서 기존 멤버 함수 사용 가능
     fun String.reverse(): String {
-        return this.reversed()
+        return this.reversed()              // reversed : 문자열 역순 (기존 멤버 함수)
     }
 
-    println("또치".reverse())
-    println("또치".reversed())
+    println("또치".reverse())         // reverse : 확장 함수
+    println("또치".reversed())        // reversed : 기존 멤버 함수
 
 
 }
